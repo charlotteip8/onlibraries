@@ -33,6 +33,10 @@ a:visited{
     align-self: center;
 }
 
+.title:hover{
+    transform: scale(1.1);
+}
+
 .pages{
     margin-top: 30px;
     width: 1200px;
@@ -73,13 +77,32 @@ a:visited{
 
 
 .one-text, .two-text, .three-text, .four-text, .five-text{
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 35px;
     align-self: center;
     
 }
 
+.one:hover{
+    transform: scale(1.1);
+}
 
+.two:hover{
+    transform: scale(1.1);
+}
+
+.three:hover{
+    transform: scale(1.1);
+}
+
+.four:hover{
+    transform: scale(1.1);
+}
+
+.five:hover{
+    transform: scale(1.1);
+}
 
 /* mobile style */
 
