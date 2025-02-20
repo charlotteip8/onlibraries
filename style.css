@@ -1,23 +1,24 @@
 h1{
     font-family:Redaction-Regular;
     color: #6B2138;
-    font-size: 20px;
+    font-size:30px;
 }
 
 body{
     font-family: Redaction-Regular;
     margin: 120px;
     color: black;
+    background-color: #F8EEE5;
 }
 
 a:link{
-    color:white;
+    color:#F8EEE5;
     background-color:none;
     text-decoration: none;
 }
 
 a:visited{
-    color:white;
+    color:#F8EEE5;
     background-color:none;
     text-decoration:none;
 }
@@ -49,12 +50,28 @@ a:visited{
     align-self: center;
 }
 
-.one, .two, .three, .four, .five {
+.two, .three, .four, .five {
     font-size: 50px;
     width: 90%;
     max-width: 1200px;
     height: 80px;
-    color: white;
+    color: #F8EEE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 10px 0;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.one {
+    font-size: 70px;
+    width: 90%;
+    max-width: 1200px;
+    height: 80px;
+    color: #F8EEE5;
     display: flex;
     align-items: center;
     justify-content: center;
