@@ -104,12 +104,6 @@ a:visited{
     transform: scale(1.1);
 }
 
-@font-face {
-    font-family: TINY5x3-140;
-    src: url(/typefaces/TINY5x3-140.woff);
-    src: url(/typefaces/TINY5x3-140.woff2);
-}
-
 /* mobile style */
 
 @media (max-width: 768px) {
